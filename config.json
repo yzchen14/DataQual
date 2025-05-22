@@ -1,0 +1,17 @@
+{
+    "ftp": {
+        "host": "your_ftp_host",
+        "port": 21,
+        "user": "your_ftp_username",
+        "password": "your_ftp_password",
+        "remote_path": "/remote/path"
+    },
+    "local": {
+        "path": "C:/path/to/local/folder",
+        "recursive": true
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    }
+}
